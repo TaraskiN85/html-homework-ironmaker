@@ -1,0 +1,9 @@
+:root{
+    background-color:grey;
+}
+
+.social-networks img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
