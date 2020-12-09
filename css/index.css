@@ -48,7 +48,6 @@ header>div {
 }
 .navigation-block-header a:hover {
 	color: #cf4e08;
-	text-transform: bold;
 	width: 40px;
 	border: 2px solid; 
 	border-color: #cf4e08;
@@ -101,7 +100,7 @@ header>div {
 }
 .navigation-block-footer a:hover {
 	color: #cf4e08;
-	text-transform: bold;
+	/*text-transform: bold;*/
 	width: 40px;
 	border: 2px solid; 
 	border-color: #cf4e08;
