@@ -5,7 +5,6 @@
     font-family: Lato, Sans Serif;
     color: #e8c22c;
     margin-left: 50px;
-
 }
 h1,h2,h3 {
     color: #a87507;
@@ -17,14 +16,20 @@ h2 {
 h1 {
 	text-transform: uppercase;
 }
-header {
-	display: flex;
-}
-.top-block-header {
+header div .top-block-header {
     height: 250px;
-    width: 50px;
-    margin: 10px;
+    display: flex;
+    margin: auto;
+    font-size-adjust: none;
+    color: orangered;
  }
+ header div p {
+     font-size: unset;
+ }
+ #logo {
+	max-width: 80px;
+	height: auto;
+}
 .social-networks a img {
 	height: 60px;
 	width: 40px;
@@ -41,25 +46,29 @@ header {
 .navigation-block-header {
 	height: 250px;
 	text-align: right;
-	text-transform: uppercase;
+    text-transform: uppercase;
+    justify-content: flex-end;
 }
 .navigation-block-header a {
 	text-decoration: none;
 	color: silver;
 	border: 2px solid transparent;
 	padding: 2px;
-	margin: 4px;
+    margin: 4px;
+    display: block;
+    
 }
 .navigation-block-header a:hover {
 	color: #cf4e08;
-	width: 40px;
 	border: 2px solid; 
 	border-color: #cf4e08;
 	border-radius: 4px;
 }
-#logo {
-	width: 60px;
-	height: 40px;
+@media (min-width: 650px) {
+
+    .navigation-block-header {
+        display: flex;
+    }
 }
 
 .banner {
@@ -93,6 +102,10 @@ header {
 }
 .product-service p b {
 	color: orange;
+}
+#form div img {
+    width: 100%;
+    height: auto;
 }
 .navigation-block-footer {
 	height: 250px;
